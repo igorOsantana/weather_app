@@ -3,5 +3,5 @@ Aplicativo desenvolvido em React Native e Expo, que busca o clima da cidade dese
 
 ### Imagens da aplicação
 
-![printscreen app](https://github.com/igorOsantana/weather_app/blob/main/weather_app1.png)
 ![printscreen app](https://github.com/igorOsantana/weather_app/blob/main/weather_app2.png)
+![printscreen app](https://github.com/igorOsantana/weather_app/blob/main/weather_app1.png)
