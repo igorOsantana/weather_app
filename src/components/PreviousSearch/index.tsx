@@ -1,4 +1,5 @@
 import React from 'react';
+import { RectButton } from 'react-native-gesture-handler';
 import { View, Text } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
@@ -24,7 +25,7 @@ export const PreviousSearch = ({ city, details }: Props) => {
   };
 
   return (
-    <View style={styles.container}>
+    <RectButton style={styles.container} onPress={handlePrevSearch}>
       <View style={styles.content}>
         <View>
           <Text style={styles.city}>{city}</Text>
@@ -34,9 +35,8 @@ export const PreviousSearch = ({ city, details }: Props) => {
           name='arrowright'
           size={28}
           color={theme.colors.primary_color}
-          onPress={handlePrevSearch}
         />
       </View>
-    </View>
+    </RectButton>
   );
 };
